@@ -1,6 +1,6 @@
+// TODO: next step... deploy to Vercel
 import { auth } from '@clerk/nextjs'
 import Link from 'next/link'
-
 export default async function Home() {
   const { userId } = await auth()
 
